@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Collections.Generic;
 
 public class Solution {
@@ -8,6 +9,7 @@ public class Solution {
             arr.Add((int)(n % (long)10));
             n /= 10;
         }
+        
         
         int[] answer = arr.ToArray();
         
